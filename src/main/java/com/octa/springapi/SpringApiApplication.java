@@ -8,7 +8,7 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 @SpringBootApplication
 @EnableConfigurationProperties(SpringApiProperty.class)
-public class SpringApiApplication {
+public class SpringApiApplication{
 
     public static void main(String[] args) {
         SpringApplication.run(SpringApiApplication.class, args);

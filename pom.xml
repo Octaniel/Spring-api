@@ -11,6 +11,8 @@
     <groupId>com.octa</groupId>
     <artifactId>spring-api</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
     <name>spring-api</name>
     <description>Demo project for Spring Boot</description>
 
@@ -126,7 +128,7 @@
                         </goals>
                         <configuration>
                             <sources>
-                                <source>target/generated-sources/annotations</source>
+                                <source>src/main/java</source>
                             </sources>
                         </configuration>
                     </execution>
